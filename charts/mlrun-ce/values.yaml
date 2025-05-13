@@ -475,3 +475,10 @@ kafka:
     CLIENT://kafka-stream:9092
     CONTROLLER://kafka-stream-controller-headless:9093,
     INTERNAL://kafka-stream-controller-headless:9094,
+
+docker-registry:
+  enabled: true
+  fullnameOverride: local-registry
+  service:
+    type: NodePort
+    nodePort: 30030

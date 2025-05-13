@@ -20,5 +20,8 @@ dependencies:
 - name: kafka
   repository: https://charts.bitnami.com/bitnami
   version: 31.3.1
-digest: sha256:e2610bc4b15a6dca8308200a3f75a73a2cef928deb725bc7ef89c30b6a378752
-generated: "2025-04-24T09:23:57.406616+03:00"
+- name: docker-registry
+  repository: https://helm.twun.io
+  version: 2.2.3
+digest: sha256:478947bc8419d01e39cfb2155e364fe63a373be51bdb254a469a95c6f05337a3
+generated: "2025-05-11T11:08:54.92214+03:00"
